@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 });
 ```
 
-### Example
+## Example
 
 ```html
 <template>
