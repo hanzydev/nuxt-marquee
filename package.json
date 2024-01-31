@@ -22,16 +22,16 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@nuxt/kit": "^3.9.0",
+    "@nuxt/kit": "^3.10.0",
     "vue-fast-marquee": "^1.0.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/module-builder": "^0.5.5",
-    "@nuxt/schema": "^3.9.0",
-    "@types/node": "^20.10.5",
-    "nuxt": "^3.9.0",
-    "prettier": "^3.1.1",
+    "@nuxt/schema": "^3.10.0",
+    "@types/node": "^20.11.13",
+    "nuxt": "^3.10.0",
+    "prettier": "^3.2.4",
     "typescript": "^5.3.3"
   }
 }
