@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.10.0",
-    "vue-fast-marquee": "^1.0.4"
+    "vue-fast-marquee": "^1.0.5"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

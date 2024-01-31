@@ -5942,10 +5942,10 @@ vue-devtools-stub@^0.1.0:
   resolved "https://registry.yarnpkg.com/vue-devtools-stub/-/vue-devtools-stub-0.1.0.tgz#a65b9485edecd4273cedcb8102c739b83add2c81"
   integrity sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==
 
-vue-fast-marquee@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vue-fast-marquee/-/vue-fast-marquee-1.0.4.tgz#e57d7d568f76209c8781bf43fc152a30b413913e"
-  integrity sha512-iK0TfeAmulOiNsxtp332gsEpPl+pWAODmhmqUfDuVUXr1YKHxZYomtHQfD4/6uYNVxMh5eS2nSLZ8jxOaFxNfQ==
+vue-fast-marquee@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vue-fast-marquee/-/vue-fast-marquee-1.0.5.tgz#7e87ab00f1ec758814984953a53bad65f50c562c"
+  integrity sha512-BhzKM/8b5vXnyXyVBDMUofqV9a3akDhs62s3e4hz+qsjfI+7zStqVBFH3eM2xMiNCWXAiwB267QhPWyZd2vP8Q==
 
 vue-router@^4.2.5:
   version "4.2.5"
