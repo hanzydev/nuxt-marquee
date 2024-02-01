@@ -1,37 +1,45 @@
 {
-  "name": "nuxt-marquee",
-  "version": "1.0.1",
-  "description": "A lightweight Nuxt 3 module that harnesses the power of CSS animations to create silky smooth marquees.",
-  "repository": "hanzydev/nuxt-marquee",
-  "license": "MIT",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
-    }
-  },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "nuxt-module-build build",
-    "format": "prettier --write ."
-  },
-  "dependencies": {
-    "@nuxt/kit": "^3.10.0",
-    "vue-fast-marquee": "^1.0.5"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/module-builder": "^0.5.5",
-    "@nuxt/schema": "^3.10.0",
-    "@types/node": "^20.11.13",
-    "nuxt": "^3.10.0",
-    "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
-  }
+    "name": "nuxt-marquee",
+    "version": "1.0.1",
+    "description": "A lightweight Nuxt 3 module that harnesses the power of CSS animations to create silky smooth marquees.",
+    "repository": "hanzydev/nuxt-marquee",
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./dist/types.d.ts",
+            "import": "./dist/module.mjs",
+            "require": "./dist/module.cjs"
+        }
+    },
+    "main": "./dist/module.cjs",
+    "types": "./dist/types.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "nuxt-module-build build",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "@nuxt/kit": "^3.10.0",
+        "vue-fast-marquee": "^1.0.5"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "latest",
+        "@nuxt/module-builder": "^0.5.5",
+        "@nuxt/schema": "^3.10.0",
+        "@types/node": "^20.11.13",
+        "nuxt": "^3.10.0",
+        "prettier": "^3.2.4",
+        "typescript": "^5.3.3"
+    },
+    "keywords": [
+        "nuxt",
+        "nuxt-module",
+        "slider",
+        "ticker",
+        "marquee",
+        "nuxt-marquee"
+    ]
 }
