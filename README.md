@@ -64,3 +64,7 @@ export default defineNuxtConfig({
 | :-------------- | :----------------------------------------------------------------------------------------------------------- |
 | `finish`        | Emitted when the marquee finishes scrolling and stops. Only calls if loop is non-zero.                       |
 | `cycleComplete` | Emitted when the marquee finishes a loop. Does not call if maximum loops are reached (use onFinish instead). |
+
+## License
+
+[MIT](https://github.com/hanzydev/nuxt-marquee/blob/main/LICENSE) - Made with 💙 by [Hànzy](https://hanzy.dev)
