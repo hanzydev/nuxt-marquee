@@ -1,6 +1,6 @@
 {
     "name": "nuxt-marquee",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A lightweight Nuxt 3 module that harnesses the power of CSS animations to create silky smooth marquees.",
     "repository": "hanzydev/nuxt-marquee",
     "license": "MIT",
