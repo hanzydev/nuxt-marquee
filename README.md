@@ -7,14 +7,7 @@ A lightweight Nuxt 3 component that harnesses the power of CSS animations to cre
 ## Installation
 
 ```sh
-# if you're using npm
-npm i -D nuxt-marquee
-
-# if you're using yarn
-yarn add -D nuxt-marquee
-
-# if you're using pnpm
-pnpm i -D nuxt-marquee
+npx nuxi@latest module add marquee
 ```
 
 ## Usage
