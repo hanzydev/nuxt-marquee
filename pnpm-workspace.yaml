@@ -1,0 +1,4 @@
+allowBuilds:
+    esbuild: false
+minimumReleaseAgeExclude:
+    - vue-fast-marquee@2.0.1

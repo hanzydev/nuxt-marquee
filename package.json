@@ -1,19 +1,19 @@
 {
     "name": "nuxt-marquee",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "description": "A lightweight Nuxt 3 module that harnesses the power of CSS animations to create silky smooth marquees.",
     "repository": "hanzydev/nuxt-marquee",
     "license": "MIT",
     "type": "module",
     "exports": {
         ".": {
-            "types": "./dist/types.d.ts",
-            "import": "./dist/module.mjs",
-            "require": "./dist/module.cjs"
+            "types": "./dist/types.d.mts",
+            "import": "./dist/module.mjs"
         }
     },
-    "main": "./dist/module.cjs",
-    "types": "./dist/types.d.ts",
+    "main": "./dist/module.mjs",
+    "module": "./dist/module.mjs",
+    "types": "./dist/types.d.mts",
     "files": [
         "dist"
     ],
@@ -22,17 +22,21 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "@nuxt/kit": "^3.10.0",
-        "vue-fast-marquee": "^1.0.6"
+        "@nuxt/kit": "^4.5.2",
+        "vue-fast-marquee": "^2.0.1"
     },
     "devDependencies": {
         "@nuxt/devtools": "latest",
-        "@nuxt/module-builder": "^0.5.5",
-        "@nuxt/schema": "^3.10.0",
-        "@types/node": "^20.11.13",
-        "nuxt": "^3.10.0",
-        "prettier": "^3.2.4",
-        "typescript": "^5.3.3"
+        "@nuxt/module-builder": "^1.0.3",
+        "@nuxt/schema": "^4.5.2",
+        "@types/node": "^26.2.0",
+        "nuxt": "^4.5.2",
+        "prettier": "^3.9.6",
+        "typescript": "^6.0.3",
+        "vue-tsc": "^3.3.10"
+    },
+    "peerDependencies": {
+        "vue": ">=3.5.0"
     },
     "keywords": [
         "nuxt",
@@ -41,5 +45,6 @@
         "ticker",
         "marquee",
         "nuxt-marquee"
-    ]
+    ],
+    "packageManager": "pnpm@12.0.0-rc.7+sha512.1d967069e7bb40beea4e2ebb5f4d6cfaab099119593cd2bfd26516f4c6e151a387d9b3a205f8d629264d6bd764b35e5bfdb38fa9cf798e625203353bc6fbb254"
 }

@@ -1,38 +1,37 @@
-<script lang="ts">
-import 'vue-fast-marquee/style.css';
+<template>
+    <Marquee
+        ref="marqueeRef"
+        v-bind="props"
+        @cycle-complete="emit('cycleComplete')"
+        @finish="emit('finish')"
+    >
+        <slot />
+    </Marquee>
+</template>
 
-import { h } from 'vue';
-import { Marquee } from 'vue-fast-marquee';
+<script setup lang="ts">
+import { ref, computed } from 'vue';
+import { Marquee, type MarqueeProps } from 'vue-fast-marquee';
 
-export default {
+const props = defineProps<MarqueeProps>();
+
+const emit = defineEmits<{
+    finish: [];
+    cycleComplete: [];
+}>();
+
+defineOptions({
     name: 'NuxtMarquee',
-    emits: ['finish', 'cycleComplete'],
-    props: [
-        'style',
-        'class',
-        'autoFill',
-        'play',
-        'pauseOnHover',
-        'pauseOnClick',
-        'direction',
-        'speed',
-        'delay',
-        'loop',
-        'gradient',
-        'gradientColor',
-        'gradientWidth',
-    ],
-    setup(props, { slots, emit }) {
-        return () =>
-            h(
-                Marquee,
-                {
-                    ...props,
-                    onCycleComplete: () => emit('cycleComplete'),
-                    onFinish: () => emit('finish'),
-                },
-                slots,
-            );
-    },
-} as typeof Marquee;
+});
+
+const marqueeRef = ref<InstanceType<typeof Marquee>>();
+
+defineExpose({
+    play: () => marqueeRef.value?.play(),
+    pause: () => marqueeRef.value?.pause(),
+    toggle: () => marqueeRef.value?.toggle(),
+    reset: () => marqueeRef.value?.reset(),
+    isPlaying: computed(() => marqueeRef.value?.isPlaying),
+    isPaused: computed(() => marqueeRef.value?.isPaused),
+});
 </script>
